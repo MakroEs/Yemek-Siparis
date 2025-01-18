@@ -6,7 +6,8 @@ import { IoMdBasket } from "react-icons/io";
 const Page = () => {
   const [address, setaddress] = useState<string>("");
   const [paymentMethod, setpaymentMethod] = useState<string>("");
-
+  console.log(address);
+  console.log(paymentMethod);
   return (
     <div className="container mx-auto mt-20 bg-sectionBg p-5 rounded-lg font-legend max-w-5xl">
       <p className="text-2xl font-bold">Sepet</p>
