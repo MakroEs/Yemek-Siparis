@@ -61,7 +61,7 @@ const Page = () => {
         </form>
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-x-2 w-2/3 md:mx-auto  mt-6">
           <p>Hesabın yok mu?</p>
-          <Link href="/auth/register" className="text-green text-sm">
+          <Link href="/Auth/register" className="text-green text-sm">
             Kayıt Ol
           </Link>
         </div>
